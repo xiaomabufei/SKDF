@@ -95,7 +95,7 @@ python test.py
 
 ### Weights
 
-[T1 weight](https://drive.google.com/file/d/1oBD-y5M2ptk-cLrLaUpWxdP03Jig4yGk/view?usp=sharing)      |      [T2_ft weight](https://drive.google.com/file/d/1bHYjcJdp67ndcVw6VP_CZ5IY90eaf2HN/view?usp=sharing)      |      [T3_ft weight](https://drive.google.com/file/d/1vhJC9MZU7K9HssihhMQ_BcqIlDBECbn2/view?usp=sharing)      |      [T4_ft weight](https://drive.google.com/file/d/1d766FdmIc07zaWlbW1slCQGZuQmggEM3/view?usp=sharing)
+[T1-T4 weight](https://pan.baidu.com/s/1o391DDITLPrpZ2dGNwG3lw?pwd=6666)    
 
 ### OWDETR proposed splits
 
@@ -157,8 +157,7 @@ python test.py
 
 ### Weights
 
-[T1 weight](https://drive.google.com/file/d/1Q9e2bhZ3-VvuOrEGN71SHUBwwhc6qS8q/view?usp=sharing)      |      [T2_ft weight](https://drive.google.com/file/d/1XLOuVnAW5z7Eo_13iy-Ri_SzkcO_2gok/view?usp=sharing)      |      [T3_ft weight](https://drive.google.com/file/d/1XDMU2uulDUFGFyV0UIrU8D9HVBGeDTbh/view?usp=sharing)      |      [T4_ft weight](https://drive.google.com/file/d/1bq5yqwNKKgXZiRrfonda7mNIWislmmW7/view?usp=sharing)
-
+[T1-T4 weight](https://pan.baidu.com/s/19xsx8pKO2IO-WdrWb6VypA?pwd=8888)
 ### Dataset Preparation
 
 The splits are present inside `data/VOC2007/SKDF/ImageSets/` folder.
