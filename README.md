@@ -159,83 +159,10 @@ python test.py
 ### Weights
 
 [T1-T4 weight](https://pan.baidu.com/s/19xsx8pKO2IO-WdrWb6VypA?pwd=8888)
-### Dataset Preparation
-
-The splits are present inside `data/VOC2007/SKDF/ImageSets/` folder.
-1. Make empty `JPEGImages` and `Annotations` directory.
-```
-mkdir data/VOC2007/SKDF/JPEGImages/
-mkdir data/VOC2007/SKDF/Annotations_selective/
-```
-2. Download the COCO Images and Annotations from [coco dataset](https://cocodataset.org/#download).
-3. Unzip train2017 and val2017 folder. The current directory structure should look like:
-```
-SKDF/
-└── data/
-    └── coco/
-        ├── annotations/
-        ├── train2017/
-        └── val2017/
-```
-4. Move all images from `train2017/` and `val2017/` to `JPEGImages` folder.
-```
-cd SKDF/data
-mv data/coco/train2017/*.jpg data/VOC2007/SKDF/JPEGImages/.
-mv data/coco/val2017/*.jpg data/VOC2007/SKDF/JPEGImages/.
-```
-5. **Annotations_selective** :The Annotations can be made by the file **"make_pseudo_labels.py"**
-
-The files should be organized in the following structure:
-```
-SKDF/
-└── data/
-    └── VOC2007/
-        └── OWOD/
-        	├── JPEGImages
-        	├── ImageSets
-        	└── Annotations_selective
-```
-
-
-Currently, Dataloader and Evaluator followed for SKDF is in VOC format.
-
-
-
-    
-# Training
-
-#### Training on single node
-
-To train SKDF on a single node with 8 GPUS, run
-```bash
-./run.sh
-```
-
-#### Training on slurm cluster
-
-To train SKDF on a slurm cluster having 2 nodes with 8 GPUS each, run
-```bash
-sbatch run_slurm.sh
-```
-
-# Evaluation
-
-For reproducing any of the above mentioned results please run the `run_eval.sh` file and add pretrained weights accordingly.
-
-
-**Note:**
-For more training and evaluation details please check the [Deformable DETR](https://github.com/fundamentalvision/Deformable-DETR) reposistory.
 
 # License
 
 This repository is released under the Apache 2.0 license as found in the [LICENSE](LICENSE) file.
-
-
-
-
-# Contact
-
-Should you have any question, please contact :e-mail: xiaomabufei@gmail.com
 
 **Acknowledgments:**
 
